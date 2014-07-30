@@ -7,4 +7,11 @@ describe "Square" do
     expected = 25
     expect(actual).to eq(expected)
   end
+
+  it "returns perimeter of square" do
+    square = Square.new(5)
+    actual = square.perimeter
+    expected = 20
+    expect(actual).to eq(expected)
+  end
 end
