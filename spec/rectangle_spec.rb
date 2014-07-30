@@ -7,5 +7,13 @@ describe "Rectangle" do
     expected = 50
     expect(actual).to eq(expected)
   end
+
+  it "returns rectangle perimeter" do
+    rectangle = Rectangle.new(5,10)
+    actual = rectangle.perimeter
+    expected = 30
+    expect(actual).to eq(expected)
+  end
+
 end
 
