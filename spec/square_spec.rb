@@ -14,4 +14,5 @@ describe "Square" do
     expected = 20
     expect(actual).to eq(expected)
   end
+
 end
